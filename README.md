@@ -29,4 +29,16 @@ Technologies Used:
 - Pytest
 
 Installation:
-- Clone the repository:
+- Clone the repository in cmd: git clone https://github.com/Jacob105/F-rdjupad-Python.git
+cd F-rdjupad-Python
+- Install the required packages: pip install -r requirements.txt
+
+Usage:
+To run the data processing pipeline, execute: python main.py in the command prompt.
+
+(This command fetches the data, cleans it, and saves it to both a CSV file (cleaned_data.csv) and an SQLite database (cleaned_data.db).)
+
+Testing
+To run the tests, use: pytest in the command prompt.
+
+(This will execute all the tests defined in the test files and report any issues.)
